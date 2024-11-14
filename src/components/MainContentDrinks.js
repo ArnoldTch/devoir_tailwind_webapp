@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 const energyDrinks = [
   { id: 1, name: "Red Bull Energy Drink", image: "/red-bull.png", backgroundColor: "#FFFFFF" },

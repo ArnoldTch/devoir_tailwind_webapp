@@ -12,9 +12,9 @@ export default function Header() {
                 justifyContent: 'flex-start',
                 backgroundColor: 'white',
                 height: '800px' }}>
-      <a href="/">
+      <div>
         <Image src="/redbull-logo.svg" alt="Logo" width={50} height={50} style={{ cursor: 'pointer' }} />
-      </a>
+      </div>
 
       <nav style={{ display: 'flex', alignItems: 'center', gap: '20px', color: "#ffffff", padding: "10px 20px", borderRadius: "16px", backgroundColor: "#1a1a1a", border: "1px solid #ddd", margin: "0 auto",}}>
         <div className="dropdown" style={{ position: 'relative' }}>
